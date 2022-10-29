@@ -18,7 +18,7 @@ int main()
         somme += nb;
         produit *= nb;
         }
-    moy = (float)somme / n;
+    moy = (float)somme / n; //el somme de type int w n de type int alors forcina el program besh ya9ra somme 3la ases ino float besh resultat bel virgule 
     printf("la somme des nombres est : %d \n",somme);
     printf("le produits des nombres est  : %d \n",produit);
     printf("le moyenne des valeurs est %.2f \n ",moy);
